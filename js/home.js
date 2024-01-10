@@ -60,13 +60,13 @@ const dayAfterTomorrowName = daysee[dayAfterTomorrowIndex];
 async function checkweather(thelocation) {
     var cityplayed;
     if (thelocation === ' ') {
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=alexandria`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=alexandria`);
         var data = await response.json();
         cityplayed = 'alexandria';
     }
     else {
         cityplayed = thelocation;
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityplayed}`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityplayed}`);
         var data = await response.json();
     }
 
@@ -109,7 +109,7 @@ async function forcastingNextTwodaysWeather(thelocation) {
 
 
 
-    const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=1b40400f4b124f32b20164627240701&q=${cityplayed}&days=7`);
+    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=1b40400f4b124f32b20164627240701&q=${cityplayed}&days=7`);
 
     var data = await response.json();
     //--------------------------------------------------------------------------------------------------------
