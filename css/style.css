@@ -72,9 +72,9 @@ background-color: rgb(50, 53, 68);
 }
 
 
-.weatherinfocard{
-    background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
-    height: 100vh;
+body{
+    background: linear-gradient(132deg, rgb(65, 80, 95) 100.00%, rgb(36, 37, 38) 100.00%);
+    height: 100%;
 }
 
 
