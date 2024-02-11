@@ -237,9 +237,9 @@ function displaycurrent(daycurrent, monthcurrent, dayOfMonth, humiditycurrent, c
         ${cityName}
     </div>
     <div class="row d-flex align-items-center">
-       <div class="col-lg-6"><h2 class="display-3 citytemp"> ${temp} °C</h2></div>
+       <div class="col-6"><h2 class="display-3 citytemp"> ${temp} °C</h2></div>
        
-       <div class="col-lg-6"><img src= "${currentcoditionimg}"  class="w-100"> </div>
+       <div class="col-6"><img src= "${currentcoditionimg}"  class="w-100" > </div>
     </div>
 
     <div class="status">
@@ -247,9 +247,9 @@ function displaycurrent(daycurrent, monthcurrent, dayOfMonth, humiditycurrent, c
     </div>
 
     <div class="row p-1 smalldetails gy-2">
-        <div class="d-flex  col-sm-4 "><img src="./images/icon-umberella.png" alt=""> <p class="px-2 humidi">${humiditycurrent}</p></div>
-        <div class="d-flex  col-sm-4"> <img src="./images/icon-wind.png" alt=""><p class="px-2 windspeed">${winddegree}km/h</p></div>
-        <div class=" d-flex col-sm-4"><img src="./images/icon-compass.png" class="px-2" alt=""><p >East</p></div>
+        <div class="d-flex  col-4 "><img src="./images/icon-umberella.png" alt=""> <p class="px-2 humidi">${humiditycurrent}</p></div>
+        <div class="d-flex  col-4"> <img src="./images/icon-wind.png" alt=""><p class="px-2 windspeed">${winddegree}km/h</p></div>
+        <div class=" d-flex col-4"><img src="./images/icon-compass.png" class="px-2" alt=""><p >East</p></div>
     </div>
 
 </div>
